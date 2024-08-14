@@ -10,7 +10,6 @@ add_library(hellolib hellolib.cpp)
 add_executable(hello main.cpp)
 target_link_libraries(hello PRIVATE hellolib)
 
-#include(CTest)
 include(Catch)
 enable_testing()
 set(TEST_SOURCES

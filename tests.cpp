@@ -5,7 +5,7 @@
 
 TEST_CASE("Do stuff")
 {
-    REQUIRE(sumUp(1,1) == 2);
+    REQUIRE(sumUp(1, 1) == 2);
 }
 TEST_CASE("Do more stuff")
 {

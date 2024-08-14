@@ -2,9 +2,12 @@
 
 `brew install catch2`
 
-For use in VSCode. To select debug or release run "CMake: Select Configure Preset"
+Install vscode extension `matepek.vscode-catch2-test-adapter`
 
-If tests don't show up in the test explorer, ensure that `"cmake.ctest.testExplorerIntegrationEnabled": true` is set
+Make sure this is set in settings `"cmake.ctest.testExplorerIntegrationEnabled": false` otherwise
+you'll get CTest and Catch displayed in test explorer
+
+For use in VSCode. To select debug or release run "CMake: Select Configure Preset"
 
 Might want to put tests in a separate subdirectory.
 
