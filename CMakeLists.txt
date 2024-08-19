@@ -16,7 +16,7 @@ set(TEST_SOURCES
     tests.cpp
 )
 add_executable(${PROJECT_NAME}_tests ${TEST_SOURCES})
-target_link_libraries(${PROJECT_NAME}_tests PRIVATE hellolib Catch2 Catch2Main)
+target_link_libraries(${PROJECT_NAME}_tests PRIVATE hellolib Catch2Main Catch2)
 catch_discover_tests(${PROJECT_NAME}_tests)
 
 # Optionally, set specific build types for the tests
